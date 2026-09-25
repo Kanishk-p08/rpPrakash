@@ -14,7 +14,7 @@
 }
 
 .body{
-    background-color: rgb(163, 218, 218);
+    background-color: rgb(122, 198, 198);
 }
 
 .chartjs-sample{
@@ -29,9 +29,12 @@
     color: #FFFFFF;
 }
 
+
 * {
-    font-family: 'Courier New', Courier, monospace;
-}
+    font-family: 'Courier New', Courier;
+
+    line-height: 1.6;
+    color: #eff0f6;}
 
 .nav-background-color{   /* navbar background color */
     background-color: #15ab94;
@@ -44,7 +47,12 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #51aedd;
+}
+
+li {
+    color: #000000;
+    font-family: 'Courier New', Courier;
 }
 
 .overview-left-padding{
@@ -56,12 +64,21 @@
 }
 
 .procedure{
-    background-color: #83e8ca;
+    background-color: #48cec5;
     padding: 1px;
 }
 
+.list {
+    text-align: left;
+}
+
+.default {
+    color:#000000;
+}
+
+
 .showcase{
-    background-color: #83e8ca; /*#0096c7*/
+    background-color: #48cec5; /*#0096c7*/
 }
 
 /* ----------------- ID CSS ----------------- */

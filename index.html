@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity 2.1.5 Class Demo</title>
+    <title>Kanishk Prakash Research Project</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -26,7 +26,7 @@
             <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
                 <div class="container"> <!-- Website brand -->
                     <a href="#" class="navbar-brand">
-                        <img src="img/compsci.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                        <img src="img/compsci.png" alt="Comp Sci Logo" class="d-inline-block align-text-top w-50">
                     </a>
 
                     
@@ -67,13 +67,9 @@
                                 <h1 class="display-4">Using Machine Learning to Predict Pediatric Asthma ER Visits Based on Pollution Exposure in Urban Areas</h1>
                                 <!-- display-4 will make the <h1> stand out -->
                                 <h2>2025-26 Research Practicum</h2>
+                                <h4>By Kanishk Prakash</h4>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 p-0 d-flex align-items-center">
-                        <img src="img/img-5509.jpg" alt="Shark River" class="img-fluid center-image">
-                        <!-- img-fluid won't expand image larger than the container  
-                     and will scale appropriately if the browser gets narrower than the imag's set width -->
                     </div>
                 </div>
             </div>
@@ -83,17 +79,19 @@
             <div class="container">
                     <div class="row">
                         <div class="col-sm-4 p-3">
-                            <img src="img/19418.jpeg" alt="Water Temperature Graph" class="img-fluid">
+                            <img src="img/child.jpeg" alt="Pediatric Asthma" class="img-fluid">
                         </div>
                         <div class="col-sm-8 p-3">
                             <h1 class="overview-left-padding">Background</h1>
                             <p class="lead overview-font overview-left-padding">
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
-                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
+                                Pediatric asthma is a leading cause of emergency room visits, yet many existing 
+                                machine learning models focus on genetic factors. This, in turn, overlooks critical 
+                                environmental triggers. Fine particulate matter, PM2.5, is a major urban pollutant 
+                                known to trigger respiratory conditions, but previous studies addressing these factors 
+                                often suffer from low accuracy. There is also a need for high-precision modeling that 
+                                can definitively map the non-linear relationship between specific air pollutants and 
+                                healthcare outcomes.
+
                             </p>
                         </div>
                     </div>
@@ -102,32 +100,38 @@
                             <div class="col-sm-8 p-3">
                                 <h1 class="overview-left-padding">Rationale</h1>
                                 <p class="lead overview-font overview-left-padding">
-                                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
-                                    lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
-                                    Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                    eget nunc.
-                                    Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                    eget nunc.
+                                    Traditional linear models often fail to capture the complex relationships 
+                                    between atmospheric pollutants and health outcomes. A Random Forest Regressor 
+                                    is chosen specifically for its ability to handle non-linear data through ensemble
+                                    learning. Additionally, by merging massive datasets from epa.gov and data.gov,
+                                    the study creates a complex understanding of health in urban areas. The main 
+                                    motivation is to move from reactive to proactive medicine. If hospitals can 
+                                    predict days with higher patient volumes based on air quality, they can 
+                                    optimize staffing and resource allocation, which could possibly save lives 
+                                    and reduce medical costs.
+
                                 </p>
                             </div>
                         <div class="col-sm-4 p-3">
-                            <img src="img/watermap.jpg" alt="Water Map" class="img-fluid">
+                            <img src="img/epa.jpeg" alt="EPA" class="img-fluid">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-4 p-3">
-                            <img src="img/phytoplankton-pnas.jpg" alt="Phytoplankton" class="img-fluid">
+                            <img src="img/RanForReg.png" alt="Random Forrest Regressor" class="img-fluid">
                         </div>
                         <div class="col-sm-8 p-3">
-                            <h1 class="overview-left-padding">Background</h1>
+                            <h1 class="overview-left-padding">Objective and Hypothesis</h1>
                             <p class="lead overview-font overview-left-padding">
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
-                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
+                                The primary objective was to develop and train a machine learning model using merged 
+                                datasets from EPA and government data to predict pediatric asthma ER visits. The technical 
+                                goal was to evaluate the model's performance using R^2, MAE, and RMSE scores to create an 
+                                ensemble learning model with high accuracy. The hypothesis was that if a machine learning 
+                                model is trained on pollution and health data, then it can accurately predict the relationship 
+                                between PM2.5 levels and pediatric asthma-related ER visits. The variables that were studied 
+                                were the independent variable, PM2.5 concentration levels, and the dependent variables, the 
+                                rate of pediatric asthma ER visits and model accuracy.
                             </p>
                         </div>
                     </div>
@@ -138,7 +142,7 @@
     <!-- Footer -->
     <footer class="p-5 footer text-light text-center position-relative">
         <div class="container">
-            <p class="lead">Copyright &copy; SE 2026 Bootstrap Demo</p>
+            <p class="lead">Copyright &copy; SE 2026 Kanishk Prakash Research Project</p>
             <a href="#" class="position-absolute bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle h2 icon-white"></i>
             </a>
