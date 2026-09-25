@@ -123,3 +123,34 @@ li {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
+
+.highlighter {
+  background-image: linear-gradient( #75b5ff 100%, #75b5ff 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;       
+  background-position: 0 80%;
+  
+  transition: background-size 0.3s ease-in-out;
+}
+
+.highlighter:hover {
+  background-size: 100% 100%;
+}
+
+table {
+  /* Smooth transition animation */
+  transition: transform 0.3s ease; 
+  
+  /* Optional: Ensures the table layers above other elements when expanding */
+  position: relative; 
+  z-index: 1;
+}
+
+table:hover {
+  /* Scale the table up by 5% (1.05) */
+  transform: scale(1.05); 
+  
+  /* Optional: Bring it further to the front and add depth */
+  z-index: 10; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
