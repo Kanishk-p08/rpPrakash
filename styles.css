@@ -10,7 +10,7 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #51aedd;
 }
 
 .body{
@@ -94,10 +94,10 @@ li {
 }
 
 .center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
 }
 
 .hover-underline-animation {
