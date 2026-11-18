@@ -1,11 +1,11 @@
 async function getData() {
-    const response = await fetch('../data/RMSE - Sheet1.csv');
+    const response = await fetch('data/RMSE - Sheet1.csv');
     const data = await response.text();
     // console.log(data);
-    const trials = []; // x-axis values (years)
-    const RMSE_value1 = []; // y-axis values (temperature)
-    const RMSE_value2 = []; // y-axis values (Northern Hemisphere temperature)
-    const RMSE_value3 = []; // y-axis values (Southern Hemisphere temperature)
+    const trials = []; // x-axis values (trials)
+    const RMSE_value1 = []; // y-axis values (RMSE values for moderate pollution)
+    const RMSE_value2 = []; // y-axis values (RMSE values for low pollution)
+    const RMSE_value3 = []; // y-axis values (RMSE values for high pollution)
 // \n - new line character
     // sprint('\n') - splits the data into an array of rows, and slice(1) removes the header row
     // slice(start, end) - returns a shallow copy of a portion of an array into a new array object 
